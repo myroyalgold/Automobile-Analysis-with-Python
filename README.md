@@ -1,11 +1,13 @@
 # Automobile-Analyis : Data Processing and Preprocessing
 
 # Objectives
-- Handle missing values
-- Correct data formatting
-- Standardize and normalize data
-- Binning
-- Indicator variable
+- Import a dataset from a CSV file to a Pandas dataframe
+- Develop some basic insights about the dataset
+- Handle missing data in different ways
+- Correct the data type of different data values as per requirement
+- Standardize and normalize the appropriate data attributes
+- Visualize the data as grouped bar graph using Binning
+- Converting a categorical data into numerical indicator variables
 
 ## What is the purpose of data wrangling? 
 Data wrangling is used to convert data from an initial format to a format that may be better for analysis.

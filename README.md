@@ -14,6 +14,12 @@ Data wrangling is used to convert data from an initial format to a format that m
 
 ## Data Source: https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-DA0101EN-SkillsNetwork/labs/Data%20files/auto.csv
 
+## Set up:
+we will be using the following libraries:
+- pandas for managing the data.
+- numpy for mathematical operations.
+- matplotlib for additional plotting tools
+  
 ## Task 1: Data Cleaning 
 Steps for working with missing data:
 - Identify missing data

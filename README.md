@@ -143,7 +143,7 @@ Use the Panda method 'get_dummies' to assign numerical values to different categ
 ## Conclusion: Important Variables
 We now have a better idea of what our data looks like and which variables are important to take into account when predicting the car price. We have narrowed it down to the following variables:
 
-Continuous numerical variables:
+**Continuous numerical variables**:Continuous numerical variables are variables that may contain any value within some range. They can be of type "int64" or "float64".A great way to visualize these variables is by using scatterplots with fitted lines.
 - Length
 - Width
 - Curb-weight
@@ -154,9 +154,14 @@ Continuous numerical variables:
 - Wheel-base
 - Bore
 
-Categorical variables:
+**Categorical variables**:These are variables that describe a 'characteristic' of a data unit, and are selected from a small group of categories. The categorical variables can have the type "object" or "int64". A good way to visualize categorical variables is by using boxplots.
 - Drive-wheels
 
+## Correlation and Causation
+**Correlation**: a measure of the extent of interdependence between variables.
+**Causation:** the relationship between cause and effect between two variables.
+**The Pearson Correlation** measures the linear dependence between two variables X and Y.
+**The P-value** is the probability value that the correlation between these two variables is statistically significant. Normally, we choose a significance level of 0.05, which means that we are 95% confident that the correlation between the variables is significant.
 
 
 

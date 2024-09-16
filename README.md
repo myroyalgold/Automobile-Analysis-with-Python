@@ -1,6 +1,7 @@
-# Automobile-Analyis : Data Processing and Preprocessing
+# Automobile-Analyis
 
-# Objectives
+# Data Processing and Preprocessing
+## Objectives
 - Import a dataset from a CSV file to a Pandas dataframe
 - Develop some basic insights about the dataset
 - Handle missing data in different ways
@@ -111,7 +112,50 @@ Use the Panda method 'get_dummies' to assign numerical values to different categ
 - create an indicator variable for the column "aspiration"
 - Merge the new dataframe to the original dataframe, then drop the column 'aspiration'.
 
+# Explanatory Data Analysis (EDA)
+## Objectives
+- Explore features or characteristics to predict price of car
+- Analyze patterns and run descriptive statistical analysis
+- Group data based on identified parameters and create pivot tables
+- Identify the effect of independent attributes on price of cars
 
+## Task
+- What is the data type of the column "peak-rpm"?
+- Find the correlation between the following columns: bore, stroke, compression-ratio, and horsepower.
+- Examine the correlation between 'engine-size' and 'price'
+- Examine the correlation between 'highway-mpg' and 'price'
+- Examine the correlation between 'peak-rpm' and 'price'
+- Find the correlation between x="stroke" and y="price".
+- Examine the relationship between "body-style" and "price".
+- Examine "drive-wheels" and "price"
+- Examine "enginelocation" and " price"
+- Find the average "price" of each car based on "body-style".
+- Calculate the Pearson Correlation Coefficient and P-value of 'wheel-base' and 'price'.
+- Calculate the Pearson Correlation Coefficient and P-value of 'horsepower' and 'price'.
+- Calculate the Pearson Correlation Coefficient and P-value of 'length' and 'price'.
+- Calculate the Pearson Correlation Coefficient and P-value of 'width' and 'price'
+- Calculate the Pearson Correlation Coefficient and P-value of 'curb-weight' and 'price'
+- Calculate the Pearson Correlation Coefficient and P-value of 'engine-size' and 'price'
+- Calculate the Pearson Correlation Coefficient and P-value of 'bore' and 'price'
+- Calculate the Pearson Correlation Coefficient and P-value of'city-mpg' and 'highway-mpg'
+- Calculate the Pearson Correlation Coefficient and P-value of Highway-mpg vs. Price
+
+## Conclusion: Important Variables
+We now have a better idea of what our data looks like and which variables are important to take into account when predicting the car price. We have narrowed it down to the following variables:
+
+Continuous numerical variables:
+- Length
+- Width
+- Curb-weight
+- Engine-size
+- Horsepower
+- City-mpg
+- Highway-mpg
+- Wheel-base
+- Bore
+
+Categorical variables:
+- Drive-wheels
 
 
 
